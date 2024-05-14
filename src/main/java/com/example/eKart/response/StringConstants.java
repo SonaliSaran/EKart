@@ -1,7 +1,6 @@
 package com.example.eKart.response;
 
 public class StringConstants {
-
     public static final String SIGN_UP_SUCCESS =" user sign up successfully";
     public static final String SIGN_UP_FAILURE = "user already exists" ;
     public static final String LOGGED_IN_SUCCESS = "logged in successfully";

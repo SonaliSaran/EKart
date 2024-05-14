@@ -8,11 +8,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface SignUpRepository  extends JpaRepository<SignUpEntity,Long>{
-
     @Query("select s from SignUpEntity s where s.email=?1 or s.phoneNumber = ?2")
     Optional<SignUpEntity> findByEmailOrPhoneNumber(String email, String phoneNumber);
-
-
     SignUpEntity save(SignUpEntity signUpEntity);
 
     SignUpEntity findByEmail(String username);

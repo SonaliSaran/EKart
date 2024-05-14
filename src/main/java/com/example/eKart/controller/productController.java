@@ -28,7 +28,6 @@ public class productController {
 
     @GetMapping("/viewAllProducts")
     public ResponseEntity<ResponseClass> viewAllProduct(HttpServletRequest request){
-
         return productService.getAllProductList(request);
     }
 

@@ -1,0 +1,44 @@
+2024-05-13 18:34:38.376 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2024-05-13 18:34:38.390 [main] INFO  com.example.eKart.EKartApplication - Starting EKartApplication using Java 1.8.0_392-392 on 8177--SW--POY with PID 4804 (D:\practiceapplication\EKart\target\classes started by priyanka.sonali_vvdn in D:\practiceapplication\EKart)
+2024-05-13 18:34:38.392 [main] INFO  com.example.eKart.EKartApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-13 18:34:39.892 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-13 18:34:40.000 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93 ms. Found 3 JPA repository interfaces.
+2024-05-13 18:34:41.317 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-05-13 18:34:41.328 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-05-13 18:34:41.333 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-13 18:34:41.333 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-05-13 18:34:41.543 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-13 18:34:41.543 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3060 ms
+2024-05-13 18:34:41.765 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-13 18:34:41.845 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-05-13 18:34:42.048 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-05-13 18:34:42.159 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-13 18:34:42.585 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-13 18:34:42.619 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-05-13 18:34:43.752 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-13 18:34:43.770 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-13 18:34:45.300 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-13 18:34:46.170 [main] INFO  c.e.e.u.SecurityConfig$$EnhancerBySpringCGLIB$$bb2c0f03 - entered override configuration
+2024-05-13 18:34:46.177 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-13 18:34:46.178 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/v2/api-docs']
+2024-05-13 18:34:46.179 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/configuration/ui']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-13 18:34:46.179 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/configuration/ui']
+2024-05-13 18:34:46.179 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-13 18:34:46.180 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/swagger-resources/**']
+2024-05-13 18:34:46.180 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/configuration/security']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-13 18:34:46.180 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/configuration/security']
+2024-05-13 18:34:46.180 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/swagger-ui.html']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-13 18:34:46.180 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/swagger-ui.html']
+2024-05-13 18:34:46.180 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-13 18:34:46.180 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/webjars/**']
+2024-05-13 18:34:46.379 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4ff9f715, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@118a4d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@87220f1, org.springframework.security.web.header.HeaderWriterFilter@4de158ca, org.springframework.security.web.authentication.logout.LogoutFilter@7ebc5be6, com.example.eKart.utils.JwtFilter@68a5aadd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@252d8df6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5dd3727c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cb194f5, org.springframework.security.web.session.SessionManagementFilter@37fca349, org.springframework.security.web.access.ExceptionTranslationFilter@6f65a203, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39c5a105]
+2024-05-13 18:34:46.511 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-05-13 18:34:47.400 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-05-13 18:34:47.464 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-13 18:34:47.468 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2024-05-13 18:34:47.509 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2024-05-13 18:34:47.560 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2024-05-13 18:34:47.801 [main] INFO  com.example.eKart.EKartApplication - Started EKartApplication in 10.078 seconds (JVM running for 10.7)
+2024-05-13 18:36:23.756 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-13 18:36:23.760 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-13 18:36:23.765 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
